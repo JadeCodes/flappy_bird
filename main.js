@@ -22,7 +22,7 @@ var main_state = {
     this.game.stage.backgroundColor = '#000';
 
     // Load the bird sprite
-    this.game.load.image('bird', 'assets/owl.png'); 
+    this.game.load.image('bird', 'assets/ball.png'); 
     },
 
     create: function() {  
