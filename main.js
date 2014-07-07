@@ -8,13 +8,13 @@ var main_state = {
     preload: function() { 
 		
         // Change the background color of the game
-        this.game.stage.backgroundColor = '#7F7F7F';
+        this.game.stage.backgroundColor = '#76D0FF';
 
         // Load the bird sprite
-        this.game.load.image('bird', 'assets/ball.png'); 
+        this.game.load.image('bird', 'assets/sun.png'); 
 
         // Load the pipe sprite
-        this.game.load.image('pipe', 'assets/pipe.png'); 
+        this.game.load.image('pipe', 'assets/cloud.png'); 
     },
 
     // Fuction called after 'preload' to setup the game
@@ -76,6 +76,7 @@ var main_state = {
 
     // Restart the game
         restart_game: function() {  
+        // Stop the timer when we restart the game
         this.game.time.events.remove(this.timer);  
         // Start the 'main' state, which restarts the game
         this.game.state.start('main');
