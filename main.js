@@ -16,18 +16,16 @@ var main_state = {
 		// Function called 60 times per second
     },
 
-
-
-// Add bird with spacebar jump
-preload: function() {  
+    // Add bird with spacebar jump
+    preload: function() {  
     // Change the background color of the game
-    this.game.stage.backgroundColor = '#71c5cf';
+    this.game.stage.backgroundColor = '#000';
 
     // Load the bird sprite
-    this.game.load.image('bird', 'assets/bird.png'); 
-},
+    this.game.load.image('bird', 'assets/owl.png'); 
+    },
 
-create: function() {  
+    create: function() {  
     // Display the bird on the screen
     this.bird = this.game.add.sprite(100, 245, 'bird');
 
