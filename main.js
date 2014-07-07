@@ -19,7 +19,7 @@ var main_state = {
     // Add bird with spacebar jump
     preload: function() {  
     // Change the background color of the game
-    this.game.stage.backgroundColor = '#000';
+    this.game.stage.backgroundColor = '#7F7F7F';
 
     // Load the bird sprite
     this.game.load.image('bird', 'assets/ball.png'); 
